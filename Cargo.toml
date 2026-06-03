@@ -1,0 +1,8 @@
+[package]
+name = "shell-lite"
+version = "0.1.0"
+edition = "2024"
+
+# No external deps — stdlib only for the retro feel.
+# rustyline will be added in a later stage for readline history.
+[dependencies]
